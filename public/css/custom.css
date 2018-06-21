@@ -1,0 +1,49 @@
+.contact-country-image{
+    width: 15px;
+    height: 15px;
+}
+
+.clickable:hover{
+    cursor: hand;
+    background-color: #efefef;
+    margin: 0;
+}
+
+.track-search{
+    width: 60%;
+    border-radius: 20px;
+}
+
+.track-search:focus{
+    border-color: #9FC735;
+}
+
+.track-search-form a{
+    position: absolute;
+    top: 27%;
+    right: 42%;
+    color: #4c5667;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 770px){
+    .navbar-header {
+        background: #fff;
+    }
+    
+    .navbar-top-links > li > a{
+        color: #000000;
+    }
+    
+    .navbar-top-links{
+        float: right;
+    }
+    
+    .dropdown .dropdown-tasks, .dropdown .mailbox{
+        margin-left: -157px;
+    }
+    
+    .table-responsive{
+        border-radius: 15px;
+    }
+}
